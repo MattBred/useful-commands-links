@@ -1,3 +1,13 @@
+* Test network throughput
+```sh
+dd if=/dev/zero bs=4096 count=262144 | ssh server.url.domain 'cat > /dev/null'
+```
+
+* Find files larger than 100mb and sort
+```sh
+find / -xdev -type f -size +100M -exec du -sh {} ';' | sort -rh | head -n50
+```
+
 * Find reverse DNS of a host
 ```sh
 for HOST in $(host -t A example.com | awk '{print $4;}'); do host "${HOST}"; done
