@@ -1,22 +1,17 @@
-* View all details of a domain including a map
-
+* View all details of a domain including a map  
 https://dnsdumpster.com/
 
-* Verify private key matches cert
-
+* Verify private key matches cert  
 https://kb.wisc.edu/middleware/page.php?id=4064
 
-* SPF Wizard
-
+* SPF Wizard  
 http://www.spfwizard.net/
 
-* DNS Tools
+* DNS Tools  
 http://www.dnsstuff.com/tools
 
-* See what certificates were made when
-
+* See what certificates were made when  
 https://crt.sh
 
-* What's my chain cert?
-
+* What's my chain cert?  
 https://whatsmychaincert.com/
